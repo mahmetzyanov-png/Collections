@@ -12,7 +12,7 @@ def main( ):
             #print( "\n" )
             error = True
     else: 
-        if error == False:
+        if not error:
            print('Elements of list1 fully represented in list2')    
         else:
            errortext = errortext[:-2]
